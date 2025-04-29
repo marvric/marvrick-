@@ -1,0 +1,48 @@
+/* ===== Custom Styles ===== */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+     }
+     h1, h2, h3 {
+     color: rgb(21, 21, 102);
+     }  
+     .navbar {
+     margin-bottom: 20px;
+     }
+     .hero {
+     height: 90vh;
+     background: url('../images/hero-bg.jpg') center center/cover no-repeat;
+     color: antiquewhite;
+     text-shadow: 2px 2px 4px #000;
+     }  
+     section {
+     padding: 60px 0;
+     }
+  
+     /* Scroll to Top Button */
+     #scrollBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     z-index: 99;
+    font-size: 18px;
+     border: none;
+     outline: none;
+     background-color: rgb(56, 27, 83);
+     color: antiquewhite;
+     cursor: pointer;
+     padding: 12px;
+     border-radius: 50%;
+    }
+    #scrollBtn:hover {
+    background-color: #1f162e;
+     }
+  
+     /* Responsive Media Query */
+     @media (max-width: 768px) {
+     .hero {
+     height: 60vh;
+     }
+    }
